@@ -1,0 +1,292 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+h2 {
+  position: relative;
+  top: 525px;
+  left: 20px;
+  width: 231px;
+  height: 33px;
+
+  text-align: left;
+  font: normal normal medium 28px/17px Rubik;
+  letter-spacing: 0px;
+  color: #1d2226;
+  opacity: 1;
+}
+
+.card-details {
+  width: 60%;
+  /* height: auto; */
+
+  /* background-color: pink; */
+  /* font-size: 1.05rem; */
+  /* color:#1D2226; */
+}
+.card-details p {
+  position: relative;
+  top: 520px;
+  left: 20px;
+  width: 232px;
+  height: 48px;
+  text-align: left;
+  font: normal normal normal 18px/26px Rubik;
+  letter-spacing: 0px;
+  color: #1d2226;
+  opacity: 0.6;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  /* padding: 2em; */
+  border: 0.5px solid grey;
+  border-radius: 20px;
+  width: 375px;
+  height: 812px;
+  margin: 0;
+
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+  background: #f7f8f9 0% 0% no-repeat padding-box;
+}
+
+.create-account-bottom {
+  /* Layout Properties */
+  position: relative;
+  top: 530px;
+  left: 20px;
+  width: 335px;
+  height: 46px;
+  transform: scale(1.01);
+  /* UI Properties */
+  background: #6c25ff 0% 0% no-repeat padding-box;
+  border-radius: 6px;
+  opacity: 1;
+}
+.already-have-account-bottom {
+  position: relative;
+  top: 550px;
+  left: 20px;
+  width: 335px;
+  height: 46px;
+  transform: scale(1.01);
+
+  color: black;
+  background: #c3a5ff59 0% 0% no-repeat padding-box;
+  border-radius: 6px;
+  opacity: 1;
+}
+
+/* signin */
+
+.signin-header h2 {
+  position: relative;
+  top: 30px;
+  left: 20px;
+  width: 188px;
+  height: 69px;
+  text-align: left;
+  font: normal normal medium 28px/36px Rubik;
+  letter-spacing: 0px;
+  color: #1d2226;
+  opacity: 1;
+}
+.signin-header p {
+  position: relative;
+  top: 25px;
+  left: 20px;
+  width: 232px;
+  height: 48px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal normal 18px/26px Rubik;
+  letter-spacing: 0px;
+  color: #1d2226;
+  opacity: 0.6;
+}
+.input-field {
+  position: relative;
+  top: 45px;
+  left: 20px;
+  width: 335px;
+  height: 40px;
+  /* UI Properties */
+  border: 1px solid #cbcbcb;
+  border-radius: 6px;
+  opacity: 1;
+  margin-bottom: 30px;
+}
+.input-field label {
+  position: absolute;
+  top: -8px;
+  left: 10px;
+  width: fit-content;
+  height: 15px;
+  text-align: left;
+  font: normal normal normal 13px/17px Rubik;
+  letter-spacing: 0px;
+  color: #6c25ff;
+  background: #f7f8f9 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.input-field span {
+  color: red;
+}
+.input-field input {
+  background: #f7f8f900 0% 0% no-repeat padding-box;
+  border: none;
+  /* border: 1px solid rgb(207, 207, 207); */
+  height: 100%;
+  width: 90%;
+  color: black;
+  font-size: 1.1rem;
+  padding: 0;
+
+  padding-inline: 12px;
+}
+.login {
+  position: relative;
+  top: 40px;
+  left: 20px;
+  width: 335px;
+  height: 46px;
+  background: #c9d0df 0% 0% no-repeat padding-box;
+  border-radius: 6px;
+  opacity: 1;
+}
+
+/* createaccount */
+
+.agency {
+  position: relative;
+  top: 50px;
+  left: 24px;
+}
+.agency p {
+  line-height: 0;
+}
+.agency input[type="radio"] {
+  /* accent-color: white; */
+  /* appearance: none; */
+
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 3px double black;
+  border-radius: 50%;
+  outline: none;
+  /* margin: 2px; */
+  background-color: rgb(255, 255, 255);
+}
+
+.agency input[type="radio"]:checked {
+  background-color: rgba(113, 36, 255, 0.582);
+  /* padding: 5px; */
+}
+.agency label {
+  position: relative;
+  top: -4px;
+  margin-right: 40px;
+  margin-left: 5px;
+}
+
+/* create account */
+.createaccount {
+  /* Layout Properties */
+  position: relative;
+  top: 180px;
+  left: 20px;
+  width: 335px;
+  height: 46px;
+  transform: scale(1.01);
+  /* UI Properties */
+  background: #6c25ff 0% 0% no-repeat padding-box;
+  border-radius: 6px;
+  opacity: 1;
+}
+
+.profile-header {
+  position: relative;
+  top: -18px;
+  left: 0;
+  right: 0;
+  width: 335px;
+  height: 22px;
+  padding: 20px;
+  border-radius: 20px 20px 0px 0px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  text-align: left;
+
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1); /* x-offset | y-offset | blur | color */
+
+  font: normal normal normal 18px/21px Rubik;
+  font-weight: 400;
+  letter-spacing: 0px;
+  color: #1d2226;
+  text-transform: capitalize;
+  opacity: 1;
+}
+
+.profileimg {
+  position: relative;
+  top: 0px;
+  left: 25px;
+  width: 76px;
+  height: 76px;
+  background: transparent url("img/Ellipse 114.png") 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.profile-detials h4 {
+  position: relative;
+  top: -100px;
+  left: 126px;
+  width: 200px;
+  height: 18px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal medium 15px/19px Rubik;
+  letter-spacing: 0px;
+  color: #1d2226;
+  text-transform: capitalize;
+  opacity: 1;
+}
+.profile-detials p {
+  position: relative;
+  top: -110px;
+  left: 126px;
+  width: 118px;
+  height: 17px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal normal 14px/19px Rubik;
+  letter-spacing: 0px;
+  color: #1d2226;
+  text-transform: capitalize;
+  opacity: 1;
+}
+.camicon {
+  position: absolute;
+  top: 60%;
+  right: 2px;
+}
+.bio {
+  position: relative;
+  top: -70px;
+  left: 20px;
+  width: 337px;
+  height: 63px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal normal 14px/22px Rubik;
+  letter-spacing: 0px;
+  color: #1d2226;
+  text-transform: capitalize;
+  opacity: 1;
+}
