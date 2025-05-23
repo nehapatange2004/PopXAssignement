@@ -24,7 +24,7 @@ const createaccount = () => {
           <label>
             Phone number<span>*</span>
           </label>
-          <input type="number" placeholder="Enter phone number" required />
+          <input type="phone" placeholder="Enter phone number" required />
         </div>
         <div className="input-field">
           <label>
