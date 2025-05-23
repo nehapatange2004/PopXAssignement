@@ -1,13 +1,12 @@
 {
-  "homepage": "https://nehapatange2004.github.io/PopXAssignement",
+  
   "name": "educaseassignment",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite --host",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
+    
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
