@@ -10,7 +10,8 @@ A **pixel-perfect**, responsive React application built using **Vite + TypeScrip
 
 | Welcome Screen | Sign In Screen | Create Account | Profile Page |
 |:--------------:|:--------------:|:---------------:|:------------:|
-| ![Welcome](./public/welcomeimg.png) | ![Sign In](./public/siginimg.png) | ![Create Account](./public/createimg.png) | ![Profile](./public/profileimg.png) |
+| ![Welcome](https://raw.githubusercontent.com/nehapatange2004/PopXAssignement/main/src/assets/welcomeimg.png) | ![Sign In](https://raw.githubusercontent.com/nehapatange2004/PopXAssignement/main/src/assets/siginimg.png) | ![Create](https://raw.githubusercontent.com/nehapatange2004/PopXAssignement/main/src/assets/createimg.png) | ![Profile](https://raw.githubusercontent.com/nehapatange2004/PopXAssignement/main/src/assets/profileimg.png) |
+
 
 ---
 
